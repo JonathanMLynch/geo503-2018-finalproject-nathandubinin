@@ -81,7 +81,7 @@ Stratiplot(sam.age ~., sam.core.pct, sort = 'wa', type = c("poly", "g"), ylab = 
 
 ```
 
-# Results
+# Results 
 
 The following are a series of pollen profiles that represent five sites within southern Sweden.  They consist of three lakes and two bogs.   The diagrams will be useful in discussing possible cänlimactic trends through time given different species of vegetation.    
 
@@ -193,7 +193,7 @@ Stratiplot(kansjon.age ~., kansjon.core.pct, sort = 'wa', type = c("poly", "g"),
 ```
 
 
-# Conclusions
+# Conclusions 
 
 Still working on the overall interpretation of the diagrams.  However, pollen diagrams allow for a glimpse of how landscapes have changed through time.  The R packagees used for this project illustrate the efficacy of creating simple and quick diagrams.  There are however some limitations with the specific arguments.  Furthermore, there are alos issues concerning pollen data that need to be adressed.  The relative abundance is calculating the percentage of the pollen counts for each taxa.  Relative pollen percentages may not mean that there is more of one taxa versus another.  Some plants give off more or less pollen when compared to one another.  Another issue that is discussed in Walanus & Nalepka (2013), is that a zero count does not necessarily mean that there was no pollen present for a specific taxa, rather it fell below a particular threshold when sampling at different levels of the core.  
 
